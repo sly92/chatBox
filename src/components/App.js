@@ -33,7 +33,7 @@ class App extends React.Component {
 		const timestamp = Date.now();
 		messages[`message-${timestamp}`] = message; // jsx (derniere version javascript) - concatenation
 		// On supprime si plus de 10 messages
-		Object.keys(messages).slice(0,-10).map(key => messages[key] = null);
+		Object.keys(messages).slice(0,-15).map(key => messages[key] = null);
 		// Mettre à jour notre state
 		this.setState({messages});
 	};
@@ -48,7 +48,6 @@ class App extends React.Component {
 			.keys(this.state.messages)
 			.map(key => <Message key={key} details={this.state.messages[key]}
 			isUser={this.isUser} />)
-		console.log(messages);
 		return(
 		<div className="box">
 			<div>
@@ -77,4 +76,3 @@ class App extends React.Component {
 
 export default App;
 
- 
