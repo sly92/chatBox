@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.dda847ca.chunk.css",
-    "main.js": "/static/js/main.caf10cd5.chunk.js",
-    "main.js.map": "/static/js/main.caf10cd5.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.a6834b03.chunk.js": "/static/js/2.a6834b03.chunk.js",
-    "static/js/2.a6834b03.chunk.js.map": "/static/js/2.a6834b03.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b2d48d893b3cc657db2701bf290795cb.js": "/precache-manifest.b2d48d893b3cc657db2701bf290795cb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.dda847ca.chunk.css.map": "/static/css/main.dda847ca.chunk.css.map"
+    "main.css": "/chatBox/static/css/main.dda847ca.chunk.css",
+    "main.js": "/chatBox/static/js/main.239d2838.chunk.js",
+    "main.js.map": "/chatBox/static/js/main.239d2838.chunk.js.map",
+    "runtime~main.js": "/chatBox/static/js/runtime~main.0d18df34.js",
+    "runtime~main.js.map": "/chatBox/static/js/runtime~main.0d18df34.js.map",
+    "static/js/2.bc5905f4.chunk.js": "/chatBox/static/js/2.bc5905f4.chunk.js",
+    "static/js/2.bc5905f4.chunk.js.map": "/chatBox/static/js/2.bc5905f4.chunk.js.map",
+    "index.html": "/chatBox/index.html",
+    "precache-manifest.72a03411d6f1b3a02e8cead493cc6294.js": "/chatBox/precache-manifest.72a03411d6f1b3a02e8cead493cc6294.js",
+    "service-worker.js": "/chatBox/service-worker.js",
+    "static/css/main.dda847ca.chunk.css.map": "/chatBox/static/css/main.dda847ca.chunk.css.map"
   }
 }
