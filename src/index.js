@@ -12,7 +12,7 @@ import './index.css';
 
 const Root = () => {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/chatBox">
 			<div>
 				<Match exactly pattern="/" component={Connexion} />
 				<Match pattern="/pseudo/:pseudo" component={App} />
