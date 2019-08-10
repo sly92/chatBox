@@ -1,6 +1,8 @@
 .gitignore
 .idea
-node_modules
-.env
 .vs
 build
+node_modules
+.env
+.firebaserc
+
