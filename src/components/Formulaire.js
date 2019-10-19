@@ -8,12 +8,11 @@ class Formulaire extends React.Component {
 	
 	createMessage = event => {
 		event.preventDefault();
-		console.log(this.message.value);
 		const message = {
 			message: this.message.value,
 			pseudo: this.props.pseudo
 		};
-
+		
 		this.props.addMessage(message);
 
 		//Reset
@@ -24,7 +23,6 @@ class Formulaire extends React.Component {
 
 	compteur = event => {
 		const length = this.props.length - this.message.value.length;
-		console.log(length);
 		this.setState({length});
 	};
 
